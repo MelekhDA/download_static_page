@@ -32,7 +32,7 @@
 
 </details>
 
-#### GET /archive/<id>/
+#### GET /archive/id/
 
     Запрос на получение архива по <id>
 
