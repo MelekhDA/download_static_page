@@ -49,10 +49,15 @@
 
 ##### Ответ
 
-	{
-        "id": 1,
-        "success": "url is being processed"
+	файл расширения *.zip
+
+    header:
+    {
+        "Content-Disposition": "attachment; filename=<download_filename.zip>"
+        "Content-Type": "application/zip"
     }
+
+    status: 200
 
 </details>
 
